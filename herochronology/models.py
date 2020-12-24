@@ -4,7 +4,7 @@ from django.utils import timezone
 # Create your models here.
 
 class Hero_category(models.Model):
-    category_name = models.CharaField()
+    category_name = models.CharField()
 
 class Hero_info(models.Model):
     start_year = models.DateField()
