@@ -1,1 +1,130 @@
-hello
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charaset="utf-8">
+		<title>ヒーロー年表</title>
+		<link rel="stylesheet" href="../../static/css/herochronology.css">
+	</head>
+	<body>
+		<header>
+			<h1><span>ヒーロー年表</span></h1>
+		</header>
+		<div class="chronology">
+			<div>
+					<span>年齢</span>
+						<select id="age">
+							<option value="0">0</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="24">24</option>
+						</select> 
+						<span>歳</span>
+						<button type="button" class="btn" onclick="clickBtn1()">取得</button>
+						<span id="select_age">選択した年齢</span>
+						<span id="birth_year">誕生年</span>
+			</div>
+			<table border="1" id="data-table">
+				<tr>
+					<th>公開</th>
+					<th>仮面ライダー</th>
+					<th>スーパー戦隊</th>
+					<th>ウルトラマン</th>
+					<th>その他</th>
+					<th>何歳のとき？</th>
+				</tr>
+				<tr>
+					<td>2000</td>
+					<td>クウガ</td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr>
+					<td>2001</td>
+					<td>アギト</td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr>
+					<td>2002</td>
+					<td>龍騎</td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr>
+					<td>2003</td>
+					<td>555</td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr>
+					<td>2004</td>
+					<td>剣</td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr>
+					<td>2005</td>
+					<td>響鬼</td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr>
+					<td>2006</td>
+					<td>カブト
+					</td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr>
+					<td>2007</td>
+					<td>電王</td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr>
+					<td>2008</td>
+					<td>キバ</td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr>
+					<td>2009</td>
+					<td>ディケイド/W</td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+					<td> </td>
+				</tr>
+			</table>
+		</div>
+		<script type="text/javascript" src="../../static/js/generation.js"></script>
+	</body>
+</html>
